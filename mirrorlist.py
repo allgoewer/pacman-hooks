@@ -7,6 +7,7 @@ def test_file(filename, mode='r'):
     try:
         with open(filename, mode) as f:
             pass
+
     except OSError:
         return False
 
