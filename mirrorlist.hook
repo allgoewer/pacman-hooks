@@ -1,0 +1,9 @@
+[Trigger]
+Operation=Upgrade
+Type=Package
+Target=pacman-mirrorlist
+
+[Action]
+Description=Overwrite old mirrorlist with new and enable german https mirrors
+When=PostTransaction
+Exec=/usr/bin/python /etc/pacman.d/hooks/mirrorlist.py
