@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = linux
+
+[Action]
+Description = Remember to reboot after kernel update
+When = PostTransaction
+Exec = /usr/bin/echo -e '!!!\nReboot now!\n!!!'
