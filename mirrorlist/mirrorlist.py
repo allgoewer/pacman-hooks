@@ -44,5 +44,5 @@ if __name__ == '__main__':
 		new = conf['mirrorlist_new']
 		country = conf['contry']
 
-	if test_file(OLD, 'w') and test_file(NEW, 'r'):
-		replace_mirrors(OLD, NEW, COUNTRY)
+	if test_file(old, 'w') and test_file(new, 'r'):
+		replace_mirrors(old, new, country)
