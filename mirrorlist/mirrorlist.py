@@ -42,7 +42,7 @@ if __name__ == '__main__':
 		conf = json.load(f)
 		old = conf['mirrorlist_old']
 		new = conf['mirrorlist_new']
-		country = conf['contry']
+		country = conf['country']
 
 	if test_file(old, 'w') and test_file(new, 'r'):
 		replace_mirrors(old, new, country)
