@@ -1,0 +1,6 @@
+{
+	"mirrorlist_old": "/etc/pacman.d/mirrorlist",
+	"mirrorlist_new": "/etc/pacman.d/mirrorlist",
+
+	"country": "Germany"
+}
